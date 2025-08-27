@@ -20,15 +20,15 @@
             </div>
             <div class="flex items-center gap-2 lg:gap-4">
                 <div class="flex justify-center items-center gap-1 bg-[#41ff6b1a] px-4 py-1 rounded-2xl">
-                    <p class="text-[12px] lg:text-[16px] font-semibold">0</p>
+                    <p id="heart" class="text-[12px] lg:text-[16px] font-semibold">0</p>
                     <img class="w-5" src="./assets/heart.png" alt="">
                 </div>
                 <div class="flex justify-center items-center gap-1 bg-[#41ff6b1a] px-4 py-1 rounded-2xl">
-                    <p class="text-[12px] lg:text-[16px] font-semibold">100</p>
+                    <p id="coin" class="text-[12px] lg:text-[16px] font-semibold">100</p>
                     <img class="w-5" src="./assets/coin.png" alt="">
                 </div>
                 <div class="flex justify-center items-center text-white gap-1 bg-[#00a63e] px-4 py-1 rounded-2xl">
-                    <p class="text-[12px] lg:text-[16px] font-semibold"><span>0</span> Copy</p>
+                    <p id="copy-count" class="text-[12px] lg:text-[16px] font-semibold"><span>0</span> Copy</p>
                 </div>
 
             </div>
@@ -47,15 +47,15 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">National Emergency Number</h1>
                     <p class="text-sm text-gray-400">National Emergency</p>
                     <h1 class="text-[21px] font-bold mt-5">999</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">All</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+                        <button  class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="National Emergency Number" data-number="999" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
                         
                     </div>
                 </div>
@@ -64,16 +64,16 @@
                         <div class=" py-2.5 bg-[#d9eff6] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-6" src="./assets/police.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Police Helpline Number</h1>
                     <p class="text-sm text-gray-400">Police</p>
                     <h1 class="text-[21px] font-bold mt-5">999</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Police</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Police Helpline Number" data-number="999" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-3 rounded-lg shadow-md bg-white p-6">
@@ -81,16 +81,16 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/fire-service.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Fire Service Number</h1>
                     <p class="text-sm text-gray-400">Fire Service</p>
                     <h1 class="text-[21px] font-bold mt-5">999</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Fire</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Fire Service Number" data-number="999" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-4 rounded-lg shadow-md bg-white p-6">
@@ -98,16 +98,16 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/ambulance.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Ambulance Service</h1>
                     <p class="text-sm text-gray-400">Ambulance</p>
                     <h1 class="text-[21px] font-bold mt-5">1994-999999</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Health</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Ambulance Service Number" data-number="1994-999999" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-5 rounded-lg shadow-md bg-white p-6">
@@ -115,16 +115,16 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Women & Child Helpline</h1>
                     <p class="text-sm text-gray-400">Women & Child Helpline</p>
                     <h1 class="text-[21px] font-bold mt-5">109</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Help</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Women & Child Helpline" data-number="109" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-6 rounded-lg shadow-md bg-white p-6">
@@ -132,16 +132,16 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Anti-Corruption Helpline</h1>
                     <p class="text-sm text-gray-400">Anti-Corruption</p>
                     <h1 class="text-[21px] font-bold mt-5">106</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Govt.</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Anti-Corruption Helpline" data-number="106" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-7 rounded-lg shadow-md bg-white p-6">
@@ -149,16 +149,16 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/emergency.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Electricity Helpline</h1>
                     <p class="text-sm text-gray-400">Electricity Outage</p>
                     <h1 class="text-[21px] font-bold mt-5">16216</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Electricity</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Electricity Helpline" data-number="16216" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-8 rounded-lg shadow-md bg-white p-6">
@@ -166,16 +166,16 @@
                         <div class=" py-2.5 bg-[#ffe3e2] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-6" src="./assets/brac.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Brac Helpline</h1>
                     <p class="text-sm text-gray-400">Brac</p>
                     <h1 class="text-[21px] font-bold mt-5">16445</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">NGO   </p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Brac Helpline" data-number="16445" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
                 <div class="card-9 rounded-lg shadow-md bg-white p-6">
@@ -183,16 +183,16 @@
                         <div class=" py-2.5 bg-[#f6efc4] w-12 flex items-center justify-center rounded-xl">
                             <img class="w-5" src="./assets/Bangladesh-Railway.png" alt="">
                         </div>
-                        <i class="fa-regular fa-heart text-lg text-gray-600"></i>
+                        <i class="heart-btn fa-regular fa-heart text-lg text-gray-600"></i>
                     </div>
                     <h1 class="text-[17px] my-2 font-bold">Bangladesh Railway Helpline </h1>
                     <p class="text-sm text-gray-400">Bangladesh Railway</p>
                     <h1 class="text-[21px] font-bold mt-5">163</h1>
                     <p class="flex justify-center items-center gap-1 bg-gray-200 px-4 py-1 text-xs font-semibold rounded-2xl w-fit mb-2 text-gray-500">Travel</p>
                     <div class="flex gap-2 mt-4 items-center justify-center w-full ">
-                        <button class="btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
-                        <button class="btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
-                        
+                        <button class="copy-button btn btn-soft text-[13px] px-10 h-9 bg-transparent border-gray-300 text-gray-500"><i class="fa-regular fa-copy"></i>Copy</button>
+                        <button data-title="Bangladesh Railway Helpline" data-number="163" class="call-button btn btn-soft text-[13px] h-9 px-10 text-gray-200 bg-[#00a63e] "><i class="fa-solid fa-phone"></i>Call</button>
+
                     </div>
                 </div>
             </div>
