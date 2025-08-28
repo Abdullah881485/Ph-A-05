@@ -72,8 +72,11 @@ document.getElementById("res-history").addEventListener('click', function(){
     if(historyMain.style.display === 'none' || historyMain.style.display === '') {
         historyMain.style.display = 'block';
         servicesMain.style.display = 'none';
+        document.getElementById("res-history-text").innerText = "Services";
     } else {
         historyMain.style.display = 'none';
         servicesMain.style.display = 'block';
+        document.getElementById("res-history-text").innerText = "Call History";
     }
+    
 });
