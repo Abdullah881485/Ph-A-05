@@ -1,4 +1,4 @@
- <!-- *Question 1 -->
+ ------------------------------------Question 1-----------------------------------
 
  getElementById()---
  
@@ -16,19 +16,19 @@
 
  This selector method also select elements using CSS Selector. It gives a NodeList of all matching elements.
 
- <!-- **Question-2 -->
+ ------------------------------------Question 2-----------------------------------
 
  By using document.createElement("example:h1"),I can create a element and using document.appendChild(""),I can insert a new element into the DOM.
 
-  <!--***Question-3  -->
+------------------------------------Question 3-----------------------------------
 
 Event Bubbling is a process where an event (like click, mouseover, etc.) occurring on a DOM element first triggers on that element, then propagates up to its parent, then its parent's parent, and so on. For example, if a click event occurs on a button inside a card, the event first happens on the button, then on the card, then on the body, and continues up the DOM tree.
 
-<!-- ****Question-4 -->
+------------------------------------Question 4-----------------------------------
 
 Event Delegation is a process where used a single event listener in a parent element, and then use logic to detect which child element triggered the event.Instead of using, multiple eventListener() for multiple child element we can use this.It can be used for balance a project and writing code easily.
 
-<!-- *****Question-5 -->
+------------------------------------Question 5-----------------------------------
 
 preventDefault() ----
 
